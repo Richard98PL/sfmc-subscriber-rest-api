@@ -24,3 +24,13 @@
     }
     ]
 }
+
+
+
+
+
+
+SELECT subscriberKey, Newsletter FROM ENT._Subscribers AS s
+INNER JOIN ENT._EnterpriseAttribute AS a 
+ON a._SubscriberId = s.SubscriberId
+WHERE Newsletter = 1
