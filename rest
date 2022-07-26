@@ -1,0 +1,26 @@
+{
+    "contactKey": "ryszardd@genus.one",
+    "attributeSets": [{
+        "name": "Email Addresses",
+            "items": [{
+                "values": [{
+                    "name": "Email Address",
+                    "value": "ryszardd@genus.one"
+                },
+                {
+                    "name": "HTML Enabled",
+                    "value": "true"
+                }]
+            }]
+    },
+    {
+        "name": "Email Demographics",
+            "items": [{
+                "values": [{
+                    "name": "Newsletter",
+                    "value": false
+                }]
+            }]
+    }
+    ]
+}
